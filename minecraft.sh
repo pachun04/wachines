@@ -6,8 +6,5 @@ git add .
 
 git commit -m "save_success"
 
-expect << EOF
-spawn git push
-send "ifabregat\r"
-expect eof
-EOF
+git push https://pachun04:ifabregat04@github.com/pachun04/wachines.git
+
