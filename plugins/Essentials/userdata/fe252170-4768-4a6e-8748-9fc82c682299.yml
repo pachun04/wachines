@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.19.143.91
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1734369357620
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1734370229933
+  login: 1734369525539
+money: '0'
+last-account-name: Zotoo
+lastlocation:
+  world: f95eb60b-2497-4441-84f3-da0d9dde0a1f
+  world-name: Wachines
+  x: -159.19041796452436
+  y: 80.0
+  z: 129.47831202389995
+  yaw: -156.75009155273438
+  pitch: 43.20001220703125
+logoutlocation:
+  world: f95eb60b-2497-4441-84f3-da0d9dde0a1f
+  world-name: Wachines
+  x: -110.06146708862111
+  y: 70.0
+  z: 174.2450513888118
+  yaw: -110.09993743896484
+  pitch: 11.850007057189941
