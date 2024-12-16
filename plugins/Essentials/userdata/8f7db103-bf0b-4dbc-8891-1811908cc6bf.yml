@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1734365997013
-  login: 1734365960732
+  logout: 1734366212926
+  login: 1734366195185
 money: '0'
 last-account-name: Pachun
 logoutlocation:
   world: f95eb60b-2497-4441-84f3-da0d9dde0a1f
   world-name: Wachines
-  x: -150.25289661113615
+  x: -162.42125429781464
   y: 69.0
-  z: 93.40282205521807
-  yaw: -128.5548095703125
-  pitch: 8.399940490722656
+  z: 118.17990183334994
+  yaw: -173.40476989746094
+  pitch: 21.899925231933594
 lastlocation:
   world: f95eb60b-2497-4441-84f3-da0d9dde0a1f
   world-name: Wachines

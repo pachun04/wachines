@@ -9,8 +9,6 @@ git add .
 
 git commit -m "save_success"
 
-expect << EOF
-spawn git push
-send "/r"
-expect eof
-EOF
+git push
+
+echo "/r"
