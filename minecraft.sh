@@ -6,4 +6,8 @@ git add .
 
 git commit -m "save_success"
 
-git push
+expect << EOF
+spawn git push
+send "ifabregat\r"
+expect eof
+EOF
