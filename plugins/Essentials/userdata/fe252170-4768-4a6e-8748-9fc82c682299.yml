@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1734370229933
-  login: 1734369525539
+  logout: 1734370649792
+  login: 1734370478084
 money: '0'
 last-account-name: Zotoo
 lastlocation:
@@ -34,5 +34,5 @@ logoutlocation:
   x: -110.06146708862111
   y: 70.0
   z: 174.2450513888118
-  yaw: -110.09993743896484
-  pitch: 11.850007057189941
+  yaw: -113.99993896484375
+  pitch: 15.450007438659668
