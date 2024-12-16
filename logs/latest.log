@@ -1,195 +1,201 @@
-[14:38:41] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239; Oracle Corporation null) on Windows 10 10.0 (amd64)
-[14:38:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-81-master@13a2395 (2024-09-15T20:39:09Z) for Minecraft 1.21.1
-[14:38:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:38:41] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\CommandBlockerFull-2.1.2.jar'...
-[14:38:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\CommandBlockerFull-2.1.2.jar' in 1081ms.
-[14:38:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[14:38:43] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[15:15:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[15:15:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-81-master@13a2395 (2024-09-15T20:39:09Z) for Minecraft 1.21.1
+[15:15:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:15:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[15:15:34] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - AdvancedServerList (5.1.2)
-[14:38:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - Chunky (1.4.28), ClearLag (3.2.2), CommandBlocker (2.1.2), Essentials (2.21.0-dev+151-f2af952), LuckPerms (5.4.150), VeinMiner (2.2.6)
-[14:38:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:38:49] [ServerMain/INFO]: Loaded 1290 recipes
-[14:38:49] [ServerMain/INFO]: Loaded 1399 advancements
-[14:38:49] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[14:38:49] [Server thread/INFO]: Loading properties
-[14:38:49] [Server thread/INFO]: This server is running Paper version 1.21.1-81-master@13a2395 (2024-09-15T20:39:09Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[14:38:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:38:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:38:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:38:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
-[14:38:51] [Server thread/INFO]: Default game type: SURVIVAL
-[14:38:51] [Server thread/INFO]: Generating keypair
-[14:38:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:38:51] [Server thread/INFO]: Using default channel type
-[14:38:51] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[14:38:51] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[14:38:52] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
-[14:38:52] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.2.6
-[14:38:52] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
-[14:38:52] [Server thread/INFO]: [Trey's Command Blocker] Loading server plugin CommandBlocker v2.1.2
-[14:38:52] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[14:38:52] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[14:38:52] [Server thread/INFO]: [AdvancedServerList] Loading server plugin AdvancedServerList v5.1.2
-[14:38:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:38:52] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
-[14:38:53] [Server thread/INFO]:         __    
-[14:38:53] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
-[14:38:53] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[14:38:53] [Server thread/INFO]: 
-[14:38:53] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:38:53] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[14:38:53] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:38:53] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:38:54] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1305ms)
-[14:38:54] [Server thread/INFO]: Preparing level "Wachines"
-[14:38:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:38:55] [Server thread/INFO]: Time elapsed: 1054 ms
-[14:38:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:38:55] [Server thread/INFO]: Time elapsed: 101 ms
-[14:38:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:38:55] [Server thread/INFO]: Time elapsed: 78 ms
-[14:38:55] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.6
-[14:38:55] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
-[14:38:56] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Using SQLITE for persistent storage.
-[14:38:56] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
-[14:38:56] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
-[14:38:56] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
-[14:38:56] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
-[14:38:56] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
-[14:38:56] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
-[14:38:56] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
-[14:38:56] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
-[14:38:56] [Server thread/INFO]: [VeinMiner] Performing an update check!
-[14:38:56] [Server thread/INFO]: [VeinMiner] Registering commands
-[14:38:56] [Server thread/INFO]: [VeinMiner] Registering events
-[14:38:56] [Server thread/INFO]: [VeinMiner] Vault not found. Economy support suspended
-[14:38:56] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
-[14:38:56] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
-[14:38:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
-[14:38:56] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner!
-[14:38:57] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[14:38:58] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[14:38:58] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[14:38:58] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[14:38:58] [Server thread/INFO]: [Essentials] Using locale es
-[14:38:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[14:38:59] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[14:38:59] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[14:38:59] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[14:38:59] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[14:38:59] [Server thread/INFO]: [Trey's Command Blocker] Enabling CommandBlocker v2.1.2
-[14:38:59] [Server thread/ERROR]: Error occurred while enabling CommandBlocker v2.1.2 (Is it up to date?)
-java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-	at CommandBlockerFull-2.1.2.jar/me.treyruffy.commandblocker.bukkit.BukkitMain.getBukkitVersion(BukkitMain.java:95) ~[CommandBlockerFull-2.1.2.jar:?]
-	at CommandBlockerFull-2.1.2.jar/me.treyruffy.commandblocker.bukkit.BukkitMain.legacyVersion(BukkitMain.java:209) ~[CommandBlockerFull-2.1.2.jar:?]
-	at CommandBlockerFull-2.1.2.jar/me.treyruffy.commandblocker.bukkit.BukkitMain.oldConfig(BukkitMain.java:180) ~[CommandBlockerFull-2.1.2.jar:?]
-	at CommandBlockerFull-2.1.2.jar/me.treyruffy.commandblocker.bukkit.BukkitMain.needGson(BukkitMain.java:230) ~[CommandBlockerFull-2.1.2.jar:?]
-	at CommandBlockerFull-2.1.2.jar/me.treyruffy.commandblocker.bukkit.BukkitMain.onEnable(BukkitMain.java:39) ~[CommandBlockerFull-2.1.2.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-81-13a2395]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-81-13a2395]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.1.jar:1.21.1-81-13a2395]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.1.jar:1.21.1-81-13a2395]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.1.jar:1.21.1-81-13a2395]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.1.jar:1.21.1-81-13a2395]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-81-13a2395]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-81-13a2395]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-81-13a2395]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[14:38:59] [Server thread/INFO]: [Trey's Command Blocker] Disabling CommandBlocker v2.1.2
-[14:38:59] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[14:38:59] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[14:38:59] [Server thread/INFO]: [ClearLag] Loading modules...
-[14:38:59] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
-[14:38:59] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[14:38:59] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[14:38:59] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[14:38:59] [Thread-6/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
-[14:38:59] [Thread-6/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-[14:38:59] [Thread-6/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
-[14:38:59] [Thread-6/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
-[14:38:59] [Thread-6/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
-[14:38:59] [Thread-6/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[14:38:59] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Enabling AdvancedServerList v5.1.2
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Registering internal Placeholders...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Registering player Placeholders...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Registering server Placeholders...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Completed internal Placeholder registration!
-[14:38:59] [Server thread/INFO]: [AdvancedServerList]            _____ _
-[14:38:59] [Server thread/INFO]: [AdvancedServerList]     /\    / ____| |
-[14:38:59] [Server thread/INFO]: [AdvancedServerList]    /  \  | (___ | |
-[14:38:59] [Server thread/INFO]: [AdvancedServerList]   / /\ \  \___ \| |
-[14:38:59] [Server thread/INFO]: [AdvancedServerList]  / ____ \ ____) | |____
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] /_/    \_\_____/|______|
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] 
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Starting AdvancedServerList v5.1.2...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Platform: Paper (ID: papermc:paper, Version: 1.21.1, Build: 81)
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Loading config.yml...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Successfully loaded config.yml!
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Loading profiles...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Loaded 'default.yml'!
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Successfully loaded 1 profile(s)!
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Loading local image files as Favicons...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Loaded file 'wachines.png' as Favicon.
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Loading Commands...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Registered /advancedserverlist:advancedserverlist
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Commands loaded!
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Loading events...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Events loaded!
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Loading playercache.json...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Loaded 3 players into cache!
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Loading bStats metrics. Disable it in the global config under /plugins/bstats/
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Metrics loaded!
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Enabling Schedulers...
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] Schedulers enabled.
-[14:38:59] [Server thread/INFO]: [AdvancedServerList] AdvancedServerList is ready!
-[14:38:59] [AdvancedServerList-UpdateThread/INFO]: [AdvancedServerList] Looking for an update...
-[14:38:59] [Server thread/INFO]: [spark] Starting background profiler...
-[14:38:59] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[14:38:59] [Server thread/INFO]: Done preparing level "Wachines" (5.636s)
-[14:38:59] [Server thread/INFO]: Running delayed init tasks
-[14:38:59] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Obteniendo información de versión...
-[14:38:59] [Server thread/INFO]: Done (19.754s)! For help, type "help"
-[14:38:59] [Server thread/INFO]: Timings Reset
-[14:39:00] [ForkJoinPool.commonPool-worker-1/INFO]: [AdvancedServerList] You are running the latest version!
-[14:39:33] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[14:39:33] [Server thread/INFO]: Stopping server
-[14:39:33] [Server thread/INFO]: [AdvancedServerList] Disabling AdvancedServerList v5.1.2
-[14:39:33] [Server thread/INFO]: [AdvancedServerList] Saving playercache.json file...
-[14:39:33] [Server thread/INFO]: [AdvancedServerList] Successfully saved playercache.json file.
-[14:39:33] [Server thread/INFO]: [AdvancedServerList] Disabling Update Checker...
-[14:39:33] [Server thread/INFO]: [AdvancedServerList] AdvancedServerList disabled!
-[14:39:33] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[14:39:33] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[14:39:33] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[14:39:33] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
-[14:39:33] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.2.6
-[14:39:33] [Server thread/INFO]: [VeinMiner] Clearing localized data
-[14:39:33] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
-[14:39:33] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[14:39:33] [Server thread/INFO]: [LuckPerms] Closing storage...
-[14:39:33] [Server thread/INFO]: [LuckPerms] Goodbye!
-[14:39:33] [Server thread/INFO]: Saving players
-[14:39:33] [Server thread/INFO]: Saving worlds
-[14:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Wachines]'/minecraft:overworld
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Wachines'
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Wachines'
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Wachines'
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'Wachines' in 0,17s
-[14:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Wachines_nether]'/minecraft:the_nether
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Wachines_nether'
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Wachines_nether'
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Wachines_nether'
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'Wachines_nether' in 0,06s
-[14:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Wachines_the_end]'/minecraft:the_end
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Wachines_the_end'
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Wachines_the_end'
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Wachines_the_end'
-[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'Wachines_the_end' in 0,03s
-[14:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Wachines): All chunks are saved
-[14:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:15:34] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Chunky (1.4.28), ClearLag (3.2.2), Essentials (2.21.0-dev+151-f2af952), LuckPerms (5.4.150), VeinMiner (2.2.6)
+[15:15:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:15:40] [ServerMain/INFO]: Loaded 1290 recipes
+[15:15:40] [ServerMain/INFO]: Loaded 1399 advancements
+[15:15:40] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[15:15:40] [Server thread/INFO]: Loading properties
+[15:15:40] [Server thread/INFO]: This server is running Paper version 1.21.1-81-master@13a2395 (2024-09-15T20:39:09Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[15:15:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:15:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:15:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:15:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[15:15:42] [Server thread/INFO]: Default game type: SURVIVAL
+[15:15:42] [Server thread/INFO]: Generating keypair
+[15:15:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:15:42] [Server thread/INFO]: Using default channel type
+[15:15:42] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[15:15:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:15:43] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
+[15:15:43] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.2.6
+[15:15:43] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
+[15:15:43] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[15:15:43] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[15:15:43] [Server thread/INFO]: [AdvancedServerList] Loading server plugin AdvancedServerList v5.1.2
+[15:15:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:15:43] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
+[15:15:44] [Server thread/INFO]:         __    
+[15:15:44] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
+[15:15:44] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:15:44] [Server thread/INFO]: 
+[15:15:44] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:15:44] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:15:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:15:44] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:15:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1140ms)
+[15:15:44] [Server thread/INFO]: Preparing level "Wachines"
+[15:15:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:15:46] [Server thread/INFO]: Time elapsed: 977 ms
+[15:15:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:15:46] [Server thread/INFO]: Time elapsed: 105 ms
+[15:15:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:15:46] [Server thread/INFO]: Time elapsed: 72 ms
+[15:15:46] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.6
+[15:15:46] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[15:15:46] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[15:15:46] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[15:15:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[15:15:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[15:15:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[15:15:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[15:15:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[15:15:46] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[15:15:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[15:15:46] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[15:15:47] [Server thread/INFO]: [VeinMiner] Registering commands
+[15:15:47] [Server thread/INFO]: [VeinMiner] Registering events
+[15:15:47] [Server thread/INFO]: [VeinMiner] Vault not found. Economy support suspended
+[15:15:47] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[15:15:47] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[15:15:47] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
+[15:15:47] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner!
+[15:15:48] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[15:15:48] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:15:48] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:15:48] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[15:15:48] [Server thread/INFO]: [Essentials] Using locale es
+[15:15:48] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:15:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:15:49] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[15:15:49] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[15:15:49] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:15:49] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[15:15:49] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[15:15:49] [Server thread/INFO]: [ClearLag] Loading modules...
+[15:15:49] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[15:15:49] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[15:15:49] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[15:15:49] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[15:15:49] [Thread-6/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[15:15:49] [Thread-6/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[15:15:49] [Thread-6/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[15:15:49] [Thread-6/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[15:15:49] [Thread-6/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[15:15:49] [Thread-6/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:15:49] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Enabling AdvancedServerList v5.1.2
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Registering internal Placeholders...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Registering player Placeholders...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Registering server Placeholders...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Completed internal Placeholder registration!
+[15:15:49] [Server thread/INFO]: [AdvancedServerList]            _____ _
+[15:15:49] [Server thread/INFO]: [AdvancedServerList]     /\    / ____| |
+[15:15:49] [Server thread/INFO]: [AdvancedServerList]    /  \  | (___ | |
+[15:15:49] [Server thread/INFO]: [AdvancedServerList]   / /\ \  \___ \| |
+[15:15:49] [Server thread/INFO]: [AdvancedServerList]  / ____ \ ____) | |____
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] /_/    \_\_____/|______|
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] 
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Starting AdvancedServerList v5.1.2...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Platform: Paper (ID: papermc:paper, Version: 1.21.1, Build: 81)
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Loading config.yml...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Successfully loaded config.yml!
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Loading profiles...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Loaded 'default.yml'!
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Successfully loaded 1 profile(s)!
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Loading local image files as Favicons...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Loaded file 'wachines.png' as Favicon.
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Loading Commands...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Registered /advancedserverlist:advancedserverlist
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Commands loaded!
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Loading events...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Events loaded!
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Loading playercache.json...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Loaded 3 players into cache!
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Loading bStats metrics. Disable it in the global config under /plugins/bstats/
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Metrics loaded!
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Enabling Schedulers...
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] Schedulers enabled.
+[15:15:49] [Server thread/INFO]: [AdvancedServerList] AdvancedServerList is ready!
+[15:15:49] [AdvancedServerList-UpdateThread/INFO]: [AdvancedServerList] Looking for an update...
+[15:15:49] [Server thread/INFO]: [spark] Starting background profiler...
+[15:15:49] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[15:15:49] [Server thread/INFO]: Done preparing level "Wachines" (5.017s)
+[15:15:49] [Server thread/INFO]: Running delayed init tasks
+[15:15:49] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Obteniendo información de versión...
+[15:15:49] [Server thread/INFO]: Done (17.397s)! For help, type "help"
+[15:15:49] [Server thread/INFO]: Timings Reset
+[15:15:50] [ForkJoinPool.commonPool-worker-1/INFO]: [AdvancedServerList] You are running the latest version!
+[15:16:08] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[15:16:10] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
+[15:16:10] [luckperms-command-executor/INFO]: https://luckperms.net/editor/NvkwBAD0dx
+[15:16:26] [luckperms-worker-8/INFO]: [LP] An editor window has connected, but it is not yet trusted.
+[15:16:26] [luckperms-worker-8/INFO]: [LP] (session id = 3112-00ab, browser = Chrome on Windows)
+[15:16:26] [luckperms-worker-8/INFO]: [LP] If it was you, run /lp trusteditor 3112-00ab to trust the session!
+[15:21:44] [luckperms-command-executor/INFO]: [LP] Running LuckPerms v5.4.150.
+[15:21:44] [luckperms-command-executor/INFO]: > /lp user <user>
+[15:21:44] [luckperms-command-executor/INFO]: > /lp group <group>
+[15:21:44] [luckperms-command-executor/INFO]: > /lp track <track>
+[15:21:44] [luckperms-command-executor/INFO]: > /lp log
+[15:21:44] [luckperms-command-executor/INFO]: > /lp sync
+[15:21:44] [luckperms-command-executor/INFO]: > /lp info
+[15:21:44] [luckperms-command-executor/INFO]: > /lp editor [type]
+[15:21:44] [luckperms-command-executor/INFO]: > /lp verbose <on|record|off|upload> [filter]
+[15:21:44] [luckperms-command-executor/INFO]: > /lp tree [scope] [player]
+[15:21:44] [luckperms-command-executor/INFO]: > /lp search <permission>
+[15:21:44] [luckperms-command-executor/INFO]: > /lp networksync
+[15:21:44] [luckperms-command-executor/INFO]: > /lp import <file>
+[15:21:44] [luckperms-command-executor/INFO]: > /lp export <file>
+[15:21:44] [luckperms-command-executor/INFO]: > /lp reloadconfig
+[15:21:44] [luckperms-command-executor/INFO]: > /lp bulkupdate
+[15:21:44] [luckperms-command-executor/INFO]: > /lp translations
+[15:21:44] [luckperms-command-executor/INFO]: > /lp creategroup <group>
+[15:21:44] [luckperms-command-executor/INFO]: > /lp deletegroup <group>
+[15:21:44] [luckperms-command-executor/INFO]: > /lp listgroups
+[15:21:44] [luckperms-command-executor/INFO]: > /lp createtrack <track>
+[15:21:44] [luckperms-command-executor/INFO]: > /lp deletetrack <track>
+[15:21:44] [luckperms-command-executor/INFO]: > /lp listtracks
+[15:21:55] [luckperms-command-executor/INFO]: [LP] The configuration file was reloaded. (some options will only apply after the server has restarted)
+[15:22:00] [Server thread/INFO]: Stopping the server
+[15:22:00] [Server thread/INFO]: Stopping server
+[15:22:00] [Server thread/INFO]: [AdvancedServerList] Disabling AdvancedServerList v5.1.2
+[15:22:00] [Server thread/INFO]: [AdvancedServerList] Saving playercache.json file...
+[15:22:00] [Server thread/INFO]: [AdvancedServerList] Successfully saved playercache.json file.
+[15:22:00] [Server thread/INFO]: [AdvancedServerList] Disabling Update Checker...
+[15:22:00] [Server thread/INFO]: [AdvancedServerList] AdvancedServerList disabled!
+[15:22:00] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
+[15:22:00] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[15:22:00] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[15:22:00] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
+[15:22:00] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.2.6
+[15:22:00] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[15:22:00] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[15:22:00] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:22:00] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:22:00] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:22:00] [Server thread/INFO]: Saving players
+[15:22:00] [Server thread/INFO]: Saving worlds
+[15:22:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Wachines]'/minecraft:overworld
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Wachines'
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Wachines'
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Wachines'
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 9 entity chunks, 0 poi chunks in world 'Wachines' in 0,01s
+[15:22:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Wachines_nether]'/minecraft:the_nether
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Wachines_nether'
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Wachines_nether'
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Wachines_nether'
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'Wachines_nether' in 0,00s
+[15:22:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Wachines_the_end]'/minecraft:the_end
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Wachines_the_end'
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Wachines_the_end'
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Wachines_the_end'
+[15:22:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'Wachines_the_end' in 0,01s
+[15:22:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (Wachines): All chunks are saved
+[15:22:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:22:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:22:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
