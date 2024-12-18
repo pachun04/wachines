@@ -6,6 +6,11 @@ ssh-add ~/.ssh/id_ed25519  # Carga la clave SSH (asegúrate de que esta es tu cl
 # Inicia el servidor de Minecraft en segundo plano
 screen -dmS minecraft java -Xms128M -Xmx1024M -jar server.jar nogui
 
+server_pid=$!
+
+wait $server_pid
+
+
 # Realiza back up del servidor
 git add .
 
