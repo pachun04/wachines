@@ -1,19 +1,26 @@
 #!/bin/bash
 
-eval "$(ssh-agent -s)"  # Inicia el agente SSH
-ssh-add ~/.ssh/id_ed25519  # Carga la clave SSH (asegúrate de que esta es tu clave privada correcta)
+# Inicia el agente SSH
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
 
-# Inicia el servidor de Minecraft en segundo plano
-java -Xms128M -Xmx1024M -jar server.jar nogui &
+# Nombre de la sesión de screen
+SESSION_NAME="minecraft"
 
-server_pid=$!
+# Inicia el servidor en una sesión de screen
+screen -dmS $SESSION_NAME java -Xms128M -Xmx1024M -jar server.jar nogui
+echo "Servidor iniciado en una sesión de screen llamada '$SESSION_NAME'."
 
-wait $server_pid
+# Monitorea la sesión de screen y espera a que termine
+while screen -list | grep -q "$SESSION_NAME"; do
+    echo "Esperando a que el servidor termine..."
+    sleep 10  # Espera 10 segundos antes de verificar nuevamente
+done
 
-# Realiza back up del servidor
+# Realiza backup del servidor después de que termine
 git add .
-
 git commit -m "save_success"
-
 git push
+
+echo "Servidor cerrado y cambios guardados en Git."
 
