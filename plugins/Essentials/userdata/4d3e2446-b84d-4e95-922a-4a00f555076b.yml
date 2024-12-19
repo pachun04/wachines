@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1734561782424
-  login: 1734561493558
+  logout: 1734575285392
+  login: 1734572607588
 money: '0'
 last-account-name: Luwuuu
 logoutlocation:
   world: f95eb60b-2497-4441-84f3-da0d9dde0a1f
   world-name: Wachines
-  x: -158.79180331684663
-  y: 66.0
-  z: 72.23029659843039
-  yaw: 76.05003356933594
-  pitch: 24.450016021728516
+  x: 107.5
+  y: 63.0
+  z: -874.5
+  yaw: -90.0
+  pitch: 0.0
